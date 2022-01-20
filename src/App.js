@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.scss';
 import DonatePage from './pages/DonatePage';
-import SendMessagePage from './pages/SendMessagePage';
+import SendCeikPage from './pages/SendCeikPage';
+// import SendMessagePage from './pages/SendMessagePage';
 
 function App() {
   const [showSendMessagePage, setShowSendMessagePage] = useState(false)
@@ -9,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <header onClick={() => setShowSendMessagePage(!showSendMessagePage)}>
-        {showSendMessagePage ? '후원 KLAY 보내기 ➤' : '후원 메시지 보내기 ➤'}
+        {showSendMessagePage ? 'KLAY 보내기 ➤' : 'Ceik 보내기 ➤'}
       </header>
       <main>
         {showSendMessagePage ?
-          <SendMessagePage /> :
+          <SendCeikPage /> :
           <DonatePage />
         }
       </main>

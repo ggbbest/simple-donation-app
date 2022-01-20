@@ -62,3 +62,8 @@ sudo npm uninstall node-sass
 npm install node-sass@6.0.0
 yarn remove node-sass
 sudo yarn add node-sass@6.0.0
+
+sendKLAY: ({ bappName, from, to, amount, successLink, failLink })
+sendToken: ({ bappName, from, to, amount, contract, successLink, failLink })
+sendCard: ({ bappName, from, to, id, contract, successLink, failLink })
+executeContract: ({ bappName, from, to, value, abi, params, successLink, failLink })
