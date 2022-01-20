@@ -9,8 +9,8 @@ export default function DonatePage() {
 
   const [step, setStep] = useState(SEND_REQUEST)
 
-  const to = '0x61f9e95Fa5DC71218Bb4FEbDa2Bb35522EAD7Dd3'
-  const bappName = '후원하기 앱'
+  const to = '0x7C720ca152B43fa72a24eCcd51ccDAFBF74A884e'
+  const bappName = '후원하기'
   const amount = '1'
 
   const sendPrepareRequest = async () => {

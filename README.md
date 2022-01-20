@@ -51,3 +51,14 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+후원하기 : 0x61f9e95Fa5DC71218Bb4FEbDa2Bb35522EAD7Dd3
+message : 0x2200164c4d78bc4e5e3CCAFA3bc7E006d345f3C0
+
+sudo n
+--> node 16
+
+sudo npm uninstall node-sass
+npm install node-sass@6.0.0
+yarn remove node-sass
+sudo yarn add node-sass@6.0.0
